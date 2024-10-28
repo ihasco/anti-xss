@@ -23,7 +23,7 @@
   ],
   "require": {
     "php": ">=7.0.0",
-    "voku/portable-utf8": "6.0.5"
+    "voku/portable-utf8": "dev-php83"
   },
   "require-dev": {
     "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
@@ -33,6 +33,12 @@
       "voku\\helper\\": "src/voku/helper/"
     }
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:ihasco/portable-utf8.git"
+    }
+  ],
   "extra": {
     "branch-alias": {
       "dev-master": "4.1.x-dev"
